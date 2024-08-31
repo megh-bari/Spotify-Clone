@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="title" content="Spotify - Web Player: Music for everyone" />
+    <meta name="description" content="Spotify is a digital music service that gives you access to millions of songs." />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+
+            <div class="home">
+                <div class="logo">
+                    <img class="invert" src="./assets/spotify-logo.svg" alt="Spotify logo">
+                </div>
+                <nav>
+                    <div class="nav-item">
+                        <img class="invert" src="./assets/home.svg" alt="home">
+                        Home
+                    </div>
+                    <div class="nav-item">
+                        <img class="invert" src="./assets/search.svg" alt="search">
+                        Search
+                    </div>
+                </nav>
+            </div>
+
+            <div class="library">
+                <div class="library-header">
+                    <img class="invert" src="./assets/library.svg" alt="library">
+                    Your Library
+                    <img class="invert add" src="./assets/plus.svg" alt="">
+                </div>
+                <div class="create-playlist">
+                    <h2>Create your first playlist</h2>
+                    <p>It's easy, we'll help you</p>
+                    <button class="create-playlist-btn">Create Playlist</button>
+                </div>
+                <div class="podcast">
+                    <h2>Let’s find some podcasts to follow</h2>
+                    <p>We’ll keep you updated on new episodes</p>
+                    <button class="podcast-btn">Browse Podcast</button>
+                </div>
+                <div class="language">
+                    <button class="language-btn">
+                        <img class="invert" src="./assets/language.svg" alt="language">
+                        English
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <header>
+                <div class="shifts">
+                    <button class="left-shift"><img class="invert" src="./assets/left-shift.svg" alt=""></button>
+                    <button class="right-shift"><img class="invert" src="./assets/right-shift.svg" alt=""></button>
+                </div>
+
+                <nav>
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </nav>
+            </header>
+
+            <div class="spotify-playlist">
+                <h2>Spotify Playlist</h2>
+
+                <div class="card-container"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

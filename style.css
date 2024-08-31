@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #b3b3b3;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+.left {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.right {
+  width: 77vw;
+  height: 100vh;
+  background-color: #121212;
+  border-radius: 10px;
+  /* padding: 24px; */
+}
+
+.section {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 24px 16px;
+}
+
+.home,
+.library {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 24px 16px;
+}
+
+.logo {
+  padding-bottom: 18px;
+}
+
+.logo img {
+  width: 100px;
+  height: 40px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+}
+
+.invert {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}
+
+.library-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+.library-header img {
+  width: 24px;
+  height: 24px;
+}
+
+.library-header .add {
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+}
+.library-header:hover {
+  color: #ffffff;
+}
+
+.create-playlist,
+.podcast {
+  background-color: #242424;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.create-playlist h2,
+.podcast h2 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.create-playlist p,
+.podcast p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.create-playlist-btn,
+.podcast-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.create-playlist-btn:hover {
+  transform: scale(1.05);
+}
+.podcast-btn:hover {
+  transform: scale(1.05);
+}
+
+.language {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+}
+
+.language img {
+  width: 18px;
+  height: 18px;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background-color: #121212;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.language-btn:hover {
+  background-color: #1e1e1e;
+  transform: scale(1.05);
+}
+
+header {
+  height: 60px;
+  background-color: #101010;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.left-shift,
+.right-shift {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #090909;
+  border: none;
+  cursor: none;
+}
+
+.left-shift img {
+  height: 20px;
+  width: 20px;
+}
+
+.right-shift img {
+  height: 20px;
+  width: 20px;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+.signup {
+  border: none;
+  background-color: #101010;
+  color: #c9c8c8;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.login {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login:hover {
+  transform: scale(1.05);
+}
+.signup:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.spotify-playlist {
+  padding: 15px;
+  color: #ffffff;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 24px;
+    padding: 20px 0;
+  }
+  
+  .card {
+    background-color: #1e1e1e; 
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .card-img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    display: block;
+  }
+  
+  .song-name, .author {
+    color: #ffffff; 
+    padding: 8px 12px;
+    margin: 0;
+  }
+  
+  .song-name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .author {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b3b3b3; 
+  }
+  
