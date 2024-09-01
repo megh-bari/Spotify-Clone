@@ -77,6 +77,7 @@ cards.forEach((cardData, index) => {
   card.className = "card";
   card.innerHTML = `
     <img class="card-img" src="${cardData.image}" alt="${cardData.title}">
+    <img class="play-btn" src="./assets/play-button.png" alt="Play Button">
     <h2 class="song-name">${cardData.title}</h2>
     <p class="author">${cardData.author}</p>
   `;
@@ -104,6 +105,7 @@ cards.forEach((cardData, index) => {
 
   cardContainer.appendChild(card);
 });
+
 
 //  pause/play button
 
@@ -253,3 +255,14 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
+
+
+// hamburger
+
+document.querySelector('.hamburger').addEventListener('click', ()=>{
+  document.querySelector('.left').style.left = "0"
+})
+
+document.querySelector('.close').addEventListener('click', ()=>{
+    document.querySelector('.left').style.left = "-100%"
+})
