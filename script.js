@@ -49,6 +49,16 @@ const cards = [
     title: "Bad Habit",
     author: "Steve Lacy",
   },
+  {
+    image: "assets/images/the-local-train.jpeg",
+    title: "Choo Lo",
+    author: "The Local Train",
+  },
+  {
+    image: "assets/images/co2.jpeg",
+    title: "Co2",
+    author: "Prateek Kuhad",
+  },
 ];
 const cardContainer = document.querySelector(".card-container");
 const audioPlayer = document.getElementById("audio-player");

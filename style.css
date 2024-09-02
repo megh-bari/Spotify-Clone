@@ -550,13 +550,25 @@ header nav {
     display: block;
   }
   .playbar {
-    position: absolute;
-    bottom: 0;
-    background-color: #222;
-    width: 100%;
-    border-radius: 20px;
-    padding: 15px;
-    font-size: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    bottom: 10px;
   }
 }
+
+/* @media (max-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 16px;
+  }
+
+  .card-img {
+    height: 150px;
+  }
+} */
