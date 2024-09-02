@@ -2,9 +2,9 @@
 
 ## Overview
 
-Spotify Clone is a web application that mimics the Spotify interface and core functionalities. Developed using HTML, CSS, and JavaScript, this project demonstrates how to create a music streaming application with a sleek user interface.
+Spotify Clone is a web application that mimics the Spotify interface and core functionalities. Developed using HTML, CSS, and JavaScript, this project demonstrates how to create a music streaming platform with a sleek, responsive user interface.
 
-## Preview: https://openspotify-clone.vercel.app/
+## Preview: [Spotify-Clone](https://open-spotify-clone.vercel.app/)
 
 ## Features
 
@@ -13,9 +13,9 @@ Spotify Clone is a web application that mimics the Spotify interface and core fu
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+![HTML](https://img.shields.io/badge/HTML-ff5722?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-2196f3?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black)
 
 ## Installation
 
