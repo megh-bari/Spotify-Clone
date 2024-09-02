@@ -59,6 +59,46 @@ const cards = [
     title: "Co2",
     author: "Prateek Kuhad",
   },
+  {
+    image: "assets/images/forever-young.jpeg",
+    title: "Forever Young",
+    author: "Alphaville",
+  },
+  {
+    image: "assets/images/viva-la-vida.jpeg",
+    title: "Viva La Vida",
+    author: "Coldplay",
+  },
+  {
+    image: "assets/images/faded.jpeg",
+    title: "Faded",
+    author: "Alan Walker",
+  },
+  {
+    image: "assets/images/lost-soul-down.jpeg",
+    title: "The Lost Soul Down - Slowed & Reverb",
+    author: "NBSPLV",
+  },
+  {
+    image: "assets/images/metamorphosis.jpeg",
+    title: "METAMORPHOSIS",
+    author: "INTERWORLD",
+  },
+  {
+    image: "assets/images/close-eyes.jpeg",
+    title: "Close Eyes",
+    author: "DVRST",
+  },
+  {
+    image: "assets/images/one-chance.jpeg",
+    title: "One Chance",
+    author: "Wrld2Luis",
+  },
+  {
+    image: "assets/images/aarmabh-polozehnie.jpeg",
+    title: "Aarmabh Hai Prachand X Polozehnie",
+    author: "Shrylox",
+  },
 ];
 const cardContainer = document.querySelector(".card-container");
 const audioPlayer = document.getElementById("audio-player");
