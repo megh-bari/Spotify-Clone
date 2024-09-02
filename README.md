@@ -4,6 +4,8 @@
 
 Spotify Clone is a web application that mimics the Spotify interface and core functionalities. Developed using HTML, CSS, and JavaScript, this project demonstrates how to create a music streaming application with a sleek user interface.
 
+## Preview: https://openspotify-clone.vercel.app/
+
 ## Features
 
 - Play, pause, and skip tracks
